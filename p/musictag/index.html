@@ -635,18 +635,7 @@ unicode: "eae5"
 <script src="https://cdn.jsdelivr.net/npm/topbar@3.0.0/topbar.min.js"></script>
 
 <script>
-    
-    function getStaticDir() {
-        const origin = window.location.origin;
-        const pathSegments = window.location.pathname.split('/').filter(Boolean);
-        
-        if (origin.includes('github.io') && pathSegments.length > 0) {
-            return `${origin}/${pathSegments[0]}/music/`;
-        }
-        
-        return `${origin}/music/`;
-    }
-    const staticDir = getStaticDir();
+    const staticDir = "/music/";
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
         lrcType: 3,
