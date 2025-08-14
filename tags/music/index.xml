@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Music on ᴏɴᴇ ғᴏᴜʀ</title>
-        <link>//localhost:1313/tags/music/</link>
+        <link>/tags/music/</link>
         <description>Recent content in Music on ᴏɴᴇ ғᴏᴜʀ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright>
-        <lastBuildDate>Thu, 14 Aug 2025 07:13:22 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Aug 2025 07:13:22 +0100</lastBuildDate><atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MusicTag</title>
-        <link>//localhost:1313/p/musictag/</link>
+        <link>/p/musictag/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>//localhost:1313/p/musictag/</guid>
-        <description>&lt;img src="//localhost:1313/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" /&gt;&lt;p&gt;&lt;strong&gt;版本：&lt;/strong&gt; 1.0.9.0&lt;br&gt;
+        <guid>/p/musictag/</guid>
+        <description>&lt;img src="/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" /&gt;&lt;p&gt;&lt;strong&gt;版本：&lt;/strong&gt; 1.0.9.0&lt;br&gt;
 &lt;strong&gt;运行环境：&lt;/strong&gt; .NET Framework 4.6.1 及以上&lt;br&gt;
 &lt;strong&gt;支持系统：&lt;/strong&gt; Windows Vista 及以上版本&lt;/p&gt;
 &lt;hr&gt;
