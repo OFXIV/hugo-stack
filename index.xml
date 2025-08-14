@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ᴏɴᴇ ғᴏᴜʀ</title>
-        <link>//localhost:1313/</link>
+        <link>/</link>
         <description>Recent content on ᴏɴᴇ ғᴏᴜʀ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MusicTag</title>
-        <link>//localhost:1313/p/musictag/</link>
+        <link>/p/musictag/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>//localhost:1313/p/musictag/</guid>
-        <description>&lt;img src="//localhost:1313/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" /&gt;&lt;p&gt;&lt;strong&gt;版本：&lt;/strong&gt; 1.0.9.0&lt;br&gt;
+        <guid>/p/musictag/</guid>
+        <description>&lt;img src="/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" /&gt;&lt;p&gt;&lt;strong&gt;版本：&lt;/strong&gt; 1.0.9.0&lt;br&gt;
 &lt;strong&gt;运行环境：&lt;/strong&gt; .NET Framework 4.6.1 及以上&lt;br&gt;
 &lt;strong&gt;支持系统：&lt;/strong&gt; Windows Vista 及以上版本&lt;/p&gt;
 &lt;hr&gt;
@@ -68,34 +68,34 @@
         </item>
         <item>
         <title>归档 | Archives</title>
-        <link>//localhost:1313/archives/</link>
+        <link>/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>//localhost:1313/archives/</guid>
+        <guid>/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于 | About</title>
-        <link>//localhost:1313/about/</link>
+        <link>/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>//localhost:1313/about/</guid>
+        <guid>/about/</guid>
         <description></description>
         </item>
         <item>
         <title>技术链接|Links</title>
-        <link>//localhost:1313/links/</link>
+        <link>/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>//localhost:1313/links/</guid>
+        <guid>/links/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索 | Search</title>
-        <link>//localhost:1313/search/</link>
+        <link>/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>//localhost:1313/search/</guid>
+        <guid>/search/</guid>
         <description></description>
         </item>
         
