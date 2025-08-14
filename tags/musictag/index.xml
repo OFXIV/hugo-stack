@@ -1,52 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MusicTag on ᴏɴᴇ ғᴏᴜʀ</title><link>/tags/musictag/</link><description>Recent content in MusicTag on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Thu, 14 Aug 2025 05:29:32 +0100</lastBuildDate><atom:link href="/tags/musictag/index.xml" rel="self" type="application/rss+xml"/><item><title>MusicTag</title><link>/p/musictag/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate><guid>/p/musictag/</guid><description>&lt;img src="/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" />&lt;p>&lt;strong>版本：&lt;/strong> 1.0.9.0&lt;br>
-&lt;strong>运行环境：&lt;/strong> .NET Framework 4.6.1 及以上&lt;br>
-&lt;strong>支持系统：&lt;/strong> Windows Vista 及以上版本&lt;/p>
-&lt;hr>
-&lt;h2 id="软件简介">软件简介
-&lt;/h2>&lt;p>MusicTag 是一款专注于编辑音频文件标签信息的绿色软件。它支持多种主流音频格式，包括：&lt;/p>
-&lt;ul>
-&lt;li>FLAC, APE, WAV, AIFF, WV, TTA&lt;/li>
-&lt;li>MP3, MP4, M4A, OGG, MPC, OPUS&lt;/li>
-&lt;li>WMA, DSF, DFF 等&lt;/li>
-&lt;/ul>
-&lt;p>用户可以通过 MusicTag 自由编辑歌曲的标题、专辑、艺术家、歌词及封面，帮助你的音乐库更加整洁和专业。&lt;/p>
-&lt;hr>
-&lt;h2 id="软件特点">软件特点
-&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>绿色无广告，无任何功能限制&lt;/strong>&lt;/li>
-&lt;li>支持多种音频格式，覆盖你绝大部分音乐文件&lt;/li>
-&lt;li>自动从网络音乐数据库抓取歌曲信息&lt;/li>
-&lt;li>支持自定义封面图片，歌词编辑更方便&lt;/li>
-&lt;li>界面简洁，操作简单，新手也能快速上手&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="下载地址">下载地址
-&lt;/h2>&lt;p>你可以通过以下链接下载 MusicTag：&lt;/p>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://pan.baidu.com/s/18vN9wWGbbNC2foEy4MfJEA" target="_blank" rel="noopener"
->百度网盘&lt;/a> 提取码：x081&lt;/li>
-&lt;li>&lt;a class="link" href="https://wwc.lanzouy.com/ik0lo0ae7bcf" target="_blank" rel="noopener"
->蓝奏云&lt;/a> 解码密码：www.coolapk.com&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="使用教程">使用教程
-&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>&lt;strong>下载好歌曲&lt;/strong>&lt;br>
-可以去 &lt;a class="link" href="https://www.gequbao.com/" target="_blank" rel="noopener"
->歌曲宝&lt;/a> 等音乐资源网站下载喜欢的歌曲。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>用 MusicTag 打开歌曲&lt;/strong>&lt;br>
-运行软件后，选择你要编辑的音乐文件。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>搜索并抓取标签信息&lt;/strong>&lt;br>
-软件支持自动从多个音乐数据库中抓取歌曲标题、艺术家、专辑、封面和歌词。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>确认并保存&lt;/strong>&lt;br>
-选择你满意的标签信息，点击保存，完成编辑。&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;hr></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>MusicTag on ᴏɴᴇ ғᴏᴜʀ</title>
+        <link>//localhost:1313/tags/musictag/</link>
+        <description>Recent content in MusicTag on ᴏɴᴇ ғᴏᴜʀ</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright>
+        <lastBuildDate>Thu, 14 Aug 2025 07:13:22 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/musictag/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MusicTag</title>
+        <link>//localhost:1313/p/musictag/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>//localhost:1313/p/musictag/</guid>
+        <description>&lt;img src="//localhost:1313/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" /&gt;&lt;p&gt;&lt;strong&gt;版本：&lt;/strong&gt; 1.0.9.0&lt;br&gt;
+&lt;strong&gt;运行环境：&lt;/strong&gt; .NET Framework 4.6.1 及以上&lt;br&gt;
+&lt;strong&gt;支持系统：&lt;/strong&gt; Windows Vista 及以上版本&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;软件简介&#34;&gt;软件简介
+&lt;/h2&gt;&lt;p&gt;MusicTag 是一款专注于编辑音频文件标签信息的绿色软件。它支持多种主流音频格式，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FLAC, APE, WAV, AIFF, WV, TTA&lt;/li&gt;
+&lt;li&gt;MP3, MP4, M4A, OGG, MPC, OPUS&lt;/li&gt;
+&lt;li&gt;WMA, DSF, DFF 等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用户可以通过 MusicTag 自由编辑歌曲的标题、专辑、艺术家、歌词及封面，帮助你的音乐库更加整洁和专业。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;软件特点&#34;&gt;软件特点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;绿色无广告，无任何功能限制&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;支持多种音频格式，覆盖你绝大部分音乐文件&lt;/li&gt;
+&lt;li&gt;自动从网络音乐数据库抓取歌曲信息&lt;/li&gt;
+&lt;li&gt;支持自定义封面图片，歌词编辑更方便&lt;/li&gt;
+&lt;li&gt;界面简洁，操作简单，新手也能快速上手&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;下载地址&#34;&gt;下载地址
+&lt;/h2&gt;&lt;p&gt;你可以通过以下链接下载 MusicTag：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/18vN9wWGbbNC2foEy4MfJEA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;百度网盘&lt;/a&gt; 	提取码：x081&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wwc.lanzouy.com/ik0lo0ae7bcf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝奏云&lt;/a&gt; 	解码密码：www.coolapk.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;使用教程&#34;&gt;使用教程
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;下载好歌曲&lt;/strong&gt;&lt;br&gt;
+可以去 &lt;a class=&#34;link&#34; href=&#34;https://www.gequbao.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;歌曲宝&lt;/a&gt; 等音乐资源网站下载喜欢的歌曲。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;用 MusicTag 打开歌曲&lt;/strong&gt;&lt;br&gt;
+运行软件后，选择你要编辑的音乐文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;搜索并抓取标签信息&lt;/strong&gt;&lt;br&gt;
+软件支持自动从多个音乐数据库中抓取歌曲标题、艺术家、专辑、封面和歌词。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;确认并保存&lt;/strong&gt;&lt;br&gt;
+选择你满意的标签信息，点击保存，完成编辑。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
