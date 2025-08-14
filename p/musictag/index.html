@@ -296,10 +296,14 @@ unicode: "eae5"
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#软件简介">软件简介</a></li>
-    <li><a href="#软件特点">软件特点</a></li>
-    <li><a href="#下载地址">下载地址</a></li>
-    <li><a href="#使用教程">使用教程</a></li>
+    <li>
+      <ol>
+        <li><a href="#软件简介">软件简介</a></li>
+        <li><a href="#软件特点">软件特点</a></li>
+        <li><a href="#下载地址">下载地址</a></li>
+        <li><a href="#使用教程">使用教程</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -391,39 +395,37 @@ unicode: "eae5"
     <section class="article-content">
     
     
+    <blockquote class="alert alert-note">
     <p><strong>版本：</strong> 1.0.9.0<br>
 <strong>运行环境：</strong> .NET Framework 4.6.1 及以上<br>
-<strong>支持系统：</strong> Windows Vista 及以上版本</p>
-<hr>
-<h2 id="软件简介">软件简介
-</h2><p>MusicTag 是一款专注于编辑音频文件标签信息的绿色软件。它支持多种主流音频格式，包括：</p>
-<ul>
+<strong>支持系统：</strong> Windows Vista 及以上版本</p></blockquote>
+<h3 id="软件简介">软件简介
+</h3><p>MusicTag 是一款专注于编辑音频文件标签信息的绿色软件。它支持多种主流音频格式，包括：</p>
+<blockquote class="alert alert-note">
+    <ul>
 <li>FLAC, APE, WAV, AIFF, WV, TTA</li>
 <li>MP3, MP4, M4A, OGG, MPC, OPUS</li>
 <li>WMA, DSF, DFF 等</li>
-</ul>
+</ul></blockquote>
 <p>用户可以通过 MusicTag 自由编辑歌曲的标题、专辑、艺术家、歌词及封面，帮助你的音乐库更加整洁和专业。</p>
-<hr>
-<h2 id="软件特点">软件特点
-</h2><ul>
+<h3 id="软件特点">软件特点
+</h3><blockquote class="alert alert-tip">
+    <ul>
 <li><strong>绿色无广告，无任何功能限制</strong></li>
 <li>支持多种音频格式，覆盖你绝大部分音乐文件</li>
 <li>自动从网络音乐数据库抓取歌曲信息</li>
 <li>支持自定义封面图片，歌词编辑更方便</li>
 <li>界面简洁，操作简单，新手也能快速上手</li>
-</ul>
-<hr>
-<h2 id="下载地址">下载地址
-</h2><p>你可以通过以下链接下载 MusicTag：</p>
-<ul>
-<li><a class="link" href="https://pan.baidu.com/s/18vN9wWGbbNC2foEy4MfJEA"  target="_blank" rel="noopener"
-    >百度网盘</a> 	提取码：x081</li>
-<li><a class="link" href="https://wwc.lanzouy.com/ik0lo0ae7bcf"  target="_blank" rel="noopener"
-    >蓝奏云</a> 	解码密码：www.coolapk.com</li>
-</ul>
-<hr>
-<h2 id="使用教程">使用教程
-</h2><ol>
+</ul></blockquote>
+<h3 id="下载地址">下载地址
+</h3><p>你可以通过以下链接下载 MusicTag：</p>
+<blockquote class="alert alert-tip">
+    <p><a class="link" href="https://pan.baidu.com/s/18vN9wWGbbNC2foEy4MfJEA"  target="_blank" rel="noopener"
+    >百度网盘</a> 	提取码：x081</p>
+<p><a class="link" href="https://wwc.lanzouy.com/ik0lo0ae7bcf"  target="_blank" rel="noopener"
+    >蓝奏云</a> 	解码密码：www.coolapk.com</p></blockquote>
+<h3 id="使用教程">使用教程
+</h3><ol>
 <li>
 <p><strong>下载好歌曲</strong><br>
 可以去 <a class="link" href="https://www.gequbao.com/"  target="_blank" rel="noopener"
@@ -442,7 +444,6 @@ unicode: "eae5"
 选择你满意的标签信息，点击保存，完成编辑。</p>
 </li>
 </ol>
-<hr>
 
 </section>
 
@@ -972,15 +973,16 @@ document.addEventListener("DOMContentLoaded", initBackTopBtn);
 
 document.addEventListener("pjax:complete", initBackTopBtn);
 </script>
+
 <style>
-  @font-face {
-    font-family: 'LindenHill';
-    src: url('//localhost:1313/font/LindenHill-webfont.ttf') format('truetype');
-  }
+@font-face {
+    font-family: 'LuxuriousRoma';
+    src: url('/font/LuxuriousRoman-Regular.ttf');
+}
 
   :root {
-    --base-font-family: 'LindenHill';
-    --code-font-family: 'LindenHill';
+    --base-font-family: 'LuxuriousRoma' !important;
+    --code-font-family: 'LuxuriousRoma' !important;
   }
 </style>
 
