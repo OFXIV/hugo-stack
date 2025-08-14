@@ -683,19 +683,20 @@ unicode: "eae5"
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topbar@3.0.0/topbar.min.js"></script>
-<script>
 
-function getStaticDir() {
-    const origin = window.location.origin;
-    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+<script>
     
-    if (origin.includes('github.io') && pathSegments.length > 0) {
-        return `${origin}/${pathSegments[0]}/music/`;
+    function getStaticDir() {
+        const origin = window.location.origin;
+        const pathSegments = window.location.pathname.split('/').filter(Boolean);
+        
+        if (origin.includes('github.io') && pathSegments.length > 0) {
+            return `${origin}/${pathSegments[0]}/music/`;
+        }
+        
+        return `${origin}/music/`;
     }
-    
-    return `${origin}/music/`;
-}
-const staticDir = getStaticDir();
+    const staticDir = getStaticDir();
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
         lrcType: 3,
@@ -869,23 +870,6 @@ const staticDir = getStaticDir();
     }
     initTocHide()
 </script>
-
-
-<style>
-    #backTopBtn {
-        display: none;
-        position: fixed;
-        bottom: 30px;
-        z-index: 99;
-        cursor: pointer;
-        width: 30px;
-        height: 30px;
-        background-image: url('/icons/backTop.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-</style>
-
 <script>
     
 
@@ -919,6 +903,19 @@ const staticDir = getStaticDir();
     initScrollTop();
 </script>
 <style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url('/icons/backTop.38d4eedbcf98ab0c4a04f24b8855a5ac2dbdd59e767f3fecca62ddd20d94396a.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     .highlight {
          
         max-height: 400px;
