@@ -112,7 +112,7 @@
             
                 <li>
                     <a 
-                        href='3346987802@qq.com'
+                        href='mailto:3346987802@qq.com'
                         target="_blank"
                         title="Mail"
                         rel="me"
@@ -539,6 +539,94 @@ unicode: "eae5"
         </article>
     
         <article>
+            <a href="https://www.100font.com/" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">100font</h2>
+                    <footer class="article-time">
+                        
+                            本站使用的免费字体网站
+                        
+                    </footer>
+                </div>
+        
+                
+                    
+                    
+                        
+                    
+                    <div class="article-image">
+                        <img src="/links/100font.ico" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://twikoo.js.org/" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Twikoo</h2>
+                    <footer class="article-time">
+                        
+                            本站使用的简洁、安全、免费网站评论系统
+                        
+                    </footer>
+                </div>
+        
+                
+                    
+                    
+                        
+                    
+                    <div class="article-image">
+                        <img src="/links/twikoo.png" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://www.mongodb.com" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">MongoDB Atlas</h2>
+                    <footer class="article-time">
+                        
+                            本站使用的MongoDB 数据库,用来存储Twikoo评论，免费500MiB
+                        
+                    </footer>
+                </div>
+        
+                
+                    
+                    
+                    <div class="article-image">
+                        <img src="https://www.mongodb.com/favicon.ico" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://app.netlify.com/" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Netlify</h2>
+                    <footer class="article-time">
+                        
+                            本站部署Twikoo评论的服务器，有充足的免费额度
+                        
+                    </footer>
+                </div>
+        
+                
+                    
+                    
+                    <div class="article-image">
+                        <img src="https://app.netlify.com/favicon.ico" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
             <a href="https://letere-gzj.github.io/hugo-stack/" target="_blank" rel="noopener">
                 <div class="article-details">
                     <h2 class="article-title">莱特雷-letere</h2>
@@ -565,6 +653,53 @@ unicode: "eae5"
     
 
      
+    
+        
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
+<style>
+    .twikoo {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/onefour.netlify.app\/.netlify\/functions\/twikoo',
+        el: '#tcomment',})
+</script>
+
     
 
     <footer class="site-footer">
@@ -685,6 +820,32 @@ unicode: "eae5"
 <script src="https://cdn.jsdelivr.net/npm/topbar@3.0.0/topbar.min.js"></script>
 
 <script>
+    
+function removeTParam() {
+    if (window.location.search.includes("?t=")) {
+        history.replaceState({}, "", window.location.pathname);
+    }
+}
+
+removeTParam();
+
+function initTwikoo() {
+  const el = document.getElementById('twikoo');
+  if (!el) return;
+
+  
+  el.innerHTML = '';
+
+  twikoo.init({
+    envId: 'https://onefour.netlify.app/.netlify/functions/twikoo',
+    el: '#twikoo',
+    path: window.location.pathname 
+  });
+}
+initTwikoo();
+</script>
+<script>
+    
     const staticDir = "/music/";
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
@@ -777,17 +938,11 @@ unicode: "eae5"
             }
             
             pjax._handleResponse(responseText, request, href, options);
+            
         } else {
             
         }
     };
-    document.addEventListener('pjax:complete', () => {
-        
-        window.Stack.init();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        }
-    });
     
     topbar.config({
         barColors: {
@@ -799,14 +954,15 @@ unicode: "eae5"
     document.addEventListener('pjax:send', () => {
         
         topbar.show();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        };
+        removeTParam();  
     });
 
     document.addEventListener('pjax:complete', () => {
         
+        window.Stack.init();
         topbar.hide();
+        initTwikoo();
+        removeTParam();  
     });
 </script>
 <style>
@@ -989,46 +1145,46 @@ unicode: "eae5"
 </script>
 
 <script>
-function initBackTopBtn() {
-    const rightSideBar = document.querySelector(".right-sidebar");
-    if (!rightSideBar) return;
+    function initBackTopBtn() {
+        const rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) return;
+
+        
+        let existingBtn = document.getElementById("backTopBtn");
+        if (existingBtn) existingBtn.remove();
+
+        const btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        rightSideBar.appendChild(btn);
+
+        window.addEventListener("scroll", function () {
+            if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        });
+    }
 
     
-    let existingBtn = document.getElementById("backTopBtn");
-    if (existingBtn) existingBtn.remove();
+    document.addEventListener("DOMContentLoaded", initBackTopBtn);
 
-    const btn = document.createElement("div");
-    btn.id = "backTopBtn";
-    btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
-    rightSideBar.appendChild(btn);
-
-    window.addEventListener("scroll", function() {
-        if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
-            btn.style.display = "block";
-        } else {
-            btn.style.display = "none";
-        }
-    });
-}
-
-
-document.addEventListener("DOMContentLoaded", initBackTopBtn);
-
-
-document.addEventListener("pjax:complete", initBackTopBtn);
+    
+    document.addEventListener("pjax:complete", initBackTopBtn);
 </script>
 
+
 <style>
-@font-face {
-    font-family: 'LuxuriousRoma';
-    src: url('/font/LuxuriousRoman-Regular.ttf');
-}
+    @font-face {
+        font-family: 'LuxuriousRoma';
+        src: url('/font/LuxuriousRoman-Regular.ttf');
+    }
 
-  :root {
-    --base-font-family: 'LuxuriousRoma' !important;
-    --code-font-family: 'LuxuriousRoma' !important;
-  }
+    :root {
+        --base-font-family: 'LuxuriousRoma' !important;
+        --code-font-family: 'LuxuriousRoma' !important;
+    }
 </style>
-
     </body>
 </html>

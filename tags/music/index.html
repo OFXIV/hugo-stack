@@ -110,7 +110,7 @@
             
                 <li>
                     <a 
-                        href='3346987802@qq.com'
+                        href='mailto:3346987802@qq.com'
                         target="_blank"
                         title="Mail"
                         rel="me"
@@ -356,7 +356,7 @@ unicode: "eae5"
             </footer>
         </div>
             <div class="article-image">
-                <img src="/p/musictag/MusicTag-cover_hu_d4c83d5f83bdbde7.png" 
+                <img src="/p/musictag/MusicTag-cover_hu_55be3832c872588a.png" 
                         width="120"
                         height="120" 
                         alt="MusicTag"
@@ -408,6 +408,32 @@ unicode: "eae5"
 <script src="https://cdn.jsdelivr.net/npm/topbar@3.0.0/topbar.min.js"></script>
 
 <script>
+    
+function removeTParam() {
+    if (window.location.search.includes("?t=")) {
+        history.replaceState({}, "", window.location.pathname);
+    }
+}
+
+removeTParam();
+
+function initTwikoo() {
+  const el = document.getElementById('twikoo');
+  if (!el) return;
+
+  
+  el.innerHTML = '';
+
+  twikoo.init({
+    envId: 'https://onefour.netlify.app/.netlify/functions/twikoo',
+    el: '#twikoo',
+    path: window.location.pathname 
+  });
+}
+initTwikoo();
+</script>
+<script>
+    
     const staticDir = "/music/";
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
@@ -500,17 +526,11 @@ unicode: "eae5"
             }
             
             pjax._handleResponse(responseText, request, href, options);
+            
         } else {
             
         }
     };
-    document.addEventListener('pjax:complete', () => {
-        
-        window.Stack.init();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        }
-    });
     
     topbar.config({
         barColors: {
@@ -522,14 +542,15 @@ unicode: "eae5"
     document.addEventListener('pjax:send', () => {
         
         topbar.show();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        };
+        removeTParam();  
     });
 
     document.addEventListener('pjax:complete', () => {
         
+        window.Stack.init();
         topbar.hide();
+        initTwikoo();
+        removeTParam();  
     });
 </script>
 <style>
@@ -712,46 +733,46 @@ unicode: "eae5"
 </script>
 
 <script>
-function initBackTopBtn() {
-    const rightSideBar = document.querySelector(".right-sidebar");
-    if (!rightSideBar) return;
+    function initBackTopBtn() {
+        const rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) return;
+
+        
+        let existingBtn = document.getElementById("backTopBtn");
+        if (existingBtn) existingBtn.remove();
+
+        const btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        rightSideBar.appendChild(btn);
+
+        window.addEventListener("scroll", function () {
+            if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        });
+    }
 
     
-    let existingBtn = document.getElementById("backTopBtn");
-    if (existingBtn) existingBtn.remove();
+    document.addEventListener("DOMContentLoaded", initBackTopBtn);
 
-    const btn = document.createElement("div");
-    btn.id = "backTopBtn";
-    btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
-    rightSideBar.appendChild(btn);
-
-    window.addEventListener("scroll", function() {
-        if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
-            btn.style.display = "block";
-        } else {
-            btn.style.display = "none";
-        }
-    });
-}
-
-
-document.addEventListener("DOMContentLoaded", initBackTopBtn);
-
-
-document.addEventListener("pjax:complete", initBackTopBtn);
+    
+    document.addEventListener("pjax:complete", initBackTopBtn);
 </script>
 
+
 <style>
-@font-face {
-    font-family: 'LuxuriousRoma';
-    src: url('/font/LuxuriousRoman-Regular.ttf');
-}
+    @font-face {
+        font-family: 'LuxuriousRoma';
+        src: url('/font/LuxuriousRoman-Regular.ttf');
+    }
 
-  :root {
-    --base-font-family: 'LuxuriousRoma' !important;
-    --code-font-family: 'LuxuriousRoma' !important;
-  }
+    :root {
+        --base-font-family: 'LuxuriousRoma' !important;
+        --code-font-family: 'LuxuriousRoma' !important;
+    }
 </style>
-
     </body>
 </html>

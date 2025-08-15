@@ -111,7 +111,7 @@
             
                 <li>
                     <a 
-                        href='3346987802@qq.com'
+                        href='mailto:3346987802@qq.com'
                         target="_blank"
                         title="Mail"
                         rel="me"
@@ -342,10 +342,10 @@ unicode: "eae5"
     <header class="article-header">
         <div class="article-image">
             <a href="/p/musictag/">
-                <img src="/p/musictag/MusicTag-cover_hu_420b7c835e57d2b5.png"
-                        srcset="/p/musictag/MusicTag-cover_hu_420b7c835e57d2b5.png 800w, /p/musictag/MusicTag-cover_hu_5ef975f8c904e417.png 1600w"
+                <img src="/p/musictag/MusicTag-cover_hu_c3053475b47a302a.png"
+                        srcset="/p/musictag/MusicTag-cover_hu_c3053475b47a302a.png 800w, /p/musictag/MusicTag-cover_hu_2bd1a0ac2cc6dc76.png 1600w"
                         width="800" 
-                        height="549" 
+                        height="562" 
                         loading="lazy"
                         alt="Featured image of post MusicTag" />
                 
@@ -371,7 +371,7 @@ unicode: "eae5"
     
         
         <h3 class="article-subtitle">
-            一款强大的音乐标签编辑神器
+            音乐标签编辑工具
         </h3>
         
     </div>
@@ -456,6 +456,32 @@ unicode: "eae5"
 <script src="https://cdn.jsdelivr.net/npm/topbar@3.0.0/topbar.min.js"></script>
 
 <script>
+    
+function removeTParam() {
+    if (window.location.search.includes("?t=")) {
+        history.replaceState({}, "", window.location.pathname);
+    }
+}
+
+removeTParam();
+
+function initTwikoo() {
+  const el = document.getElementById('twikoo');
+  if (!el) return;
+
+  
+  el.innerHTML = '';
+
+  twikoo.init({
+    envId: 'https://onefour.netlify.app/.netlify/functions/twikoo',
+    el: '#twikoo',
+    path: window.location.pathname 
+  });
+}
+initTwikoo();
+</script>
+<script>
+    
     const staticDir = "/music/";
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
@@ -548,17 +574,11 @@ unicode: "eae5"
             }
             
             pjax._handleResponse(responseText, request, href, options);
+            
         } else {
             
         }
     };
-    document.addEventListener('pjax:complete', () => {
-        
-        window.Stack.init();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        }
-    });
     
     topbar.config({
         barColors: {
@@ -570,14 +590,15 @@ unicode: "eae5"
     document.addEventListener('pjax:send', () => {
         
         topbar.show();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        };
+        removeTParam();  
     });
 
     document.addEventListener('pjax:complete', () => {
         
+        window.Stack.init();
         topbar.hide();
+        initTwikoo();
+        removeTParam();  
     });
 </script>
 <style>
@@ -760,46 +781,46 @@ unicode: "eae5"
 </script>
 
 <script>
-function initBackTopBtn() {
-    const rightSideBar = document.querySelector(".right-sidebar");
-    if (!rightSideBar) return;
+    function initBackTopBtn() {
+        const rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) return;
+
+        
+        let existingBtn = document.getElementById("backTopBtn");
+        if (existingBtn) existingBtn.remove();
+
+        const btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        rightSideBar.appendChild(btn);
+
+        window.addEventListener("scroll", function () {
+            if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        });
+    }
 
     
-    let existingBtn = document.getElementById("backTopBtn");
-    if (existingBtn) existingBtn.remove();
+    document.addEventListener("DOMContentLoaded", initBackTopBtn);
 
-    const btn = document.createElement("div");
-    btn.id = "backTopBtn";
-    btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
-    rightSideBar.appendChild(btn);
-
-    window.addEventListener("scroll", function() {
-        if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
-            btn.style.display = "block";
-        } else {
-            btn.style.display = "none";
-        }
-    });
-}
-
-
-document.addEventListener("DOMContentLoaded", initBackTopBtn);
-
-
-document.addEventListener("pjax:complete", initBackTopBtn);
+    
+    document.addEventListener("pjax:complete", initBackTopBtn);
 </script>
 
+
 <style>
-@font-face {
-    font-family: 'LuxuriousRoma';
-    src: url('/font/LuxuriousRoman-Regular.ttf');
-}
+    @font-face {
+        font-family: 'LuxuriousRoma';
+        src: url('/font/LuxuriousRoman-Regular.ttf');
+    }
 
-  :root {
-    --base-font-family: 'LuxuriousRoma' !important;
-    --code-font-family: 'LuxuriousRoma' !important;
-  }
+    :root {
+        --base-font-family: 'LuxuriousRoma' !important;
+        --code-font-family: 'LuxuriousRoma' !important;
+    }
 </style>
-
     </body>
 </html>

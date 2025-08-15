@@ -12,55 +12,37 @@
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>//localhost:1313/p/musictag/</guid>
-        <description>&lt;img src="//localhost:1313/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" /&gt;&lt;blockquote class=&#34;alert alert-note&#34;&gt;
-    &lt;p&gt;&lt;strong&gt;版本：&lt;/strong&gt; 1.0.9.0&lt;br&gt;
-&lt;strong&gt;运行环境：&lt;/strong&gt; .NET Framework 4.6.1 及以上&lt;br&gt;
-&lt;strong&gt;支持系统：&lt;/strong&gt; Windows Vista 及以上版本&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;软件简介&#34;&gt;软件简介
-&lt;/h3&gt;&lt;p&gt;MusicTag 是一款专注于编辑音频文件标签信息的绿色软件。它支持多种主流音频格式，包括：&lt;/p&gt;
+        <description>&lt;img src="//localhost:1313/p/musictag/MusicTag-cover.png" alt="Featured image of post MusicTag" /&gt;&lt;h2 id=&#34;blush-概述&#34;&gt;&amp;#x1f60a; 概述
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;MusicTag&lt;/strong&gt; 是一款音乐刮削工具，就是查找音乐的源信息&lt;br&gt;&lt;/p&gt;
 &lt;blockquote class=&#34;alert alert-note&#34;&gt;
-    &lt;ul&gt;
-&lt;li&gt;FLAC, APE, WAV, AIFF, WV, TTA&lt;/li&gt;
-&lt;li&gt;MP3, MP4, M4A, OGG, MPC, OPUS&lt;/li&gt;
-&lt;li&gt;WMA, DSF, DFF 等&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;用户可以通过 MusicTag 自由编辑歌曲的标题、专辑、艺术家、歌词及封面，帮助你的音乐库更加整洁和专业。&lt;/p&gt;
-&lt;h3 id=&#34;软件特点&#34;&gt;软件特点
-&lt;/h3&gt;&lt;blockquote class=&#34;alert alert-tip&#34;&gt;
-    &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;绿色无广告，无任何功能限制&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;支持多种音频格式，覆盖你绝大部分音乐文件&lt;/li&gt;
-&lt;li&gt;自动从网络音乐数据库抓取歌曲信息&lt;/li&gt;
-&lt;li&gt;支持自定义封面图片，歌词编辑更方便&lt;/li&gt;
-&lt;li&gt;界面简洁，操作简单，新手也能快速上手&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;下载地址&#34;&gt;下载地址
-&lt;/h3&gt;&lt;p&gt;你可以通过以下链接下载 MusicTag：&lt;/p&gt;
+    &lt;p&gt;&lt;em&gt;支持多种主流音频格式：&lt;/em&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FLAC, APE, WAV, AIFF, WV, TTA&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;MP3, MP4, M4A, OGG, MPC, OPUS&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;WMA, DSF, DFF 等&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;总的来说，有这个工具你就能查找音乐的各种信息&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;但是没有歌就要另外去找了，这里推荐几个网站下载：&lt;/em&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gequbao.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;歌曲宝&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://yym4.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;音乐魔石&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://zz123.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;种子音乐&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.fangpi.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;放屁音乐网&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;大部分的歌都是有的，找不到的可以另找下网站下载&lt;/em&gt;&lt;br&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;star-推荐下载地址&#34;&gt;&amp;#x2b50; 推荐下载地址
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;目前我并没有找到该软件的来源地址，只能贴上其他网友或者我的夸克下载地址&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
 &lt;blockquote class=&#34;alert alert-tip&#34;&gt;
-    &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/18vN9wWGbbNC2foEy4MfJEA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;百度网盘&lt;/a&gt; 	提取码：x081&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wwc.lanzouy.com/ik0lo0ae7bcf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;蓝奏云&lt;/a&gt; 	解码密码：www.coolapk.com&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;使用教程&#34;&gt;使用教程
-&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;下载好歌曲&lt;/strong&gt;&lt;br&gt;
-可以去 &lt;a class=&#34;link&#34; href=&#34;https://www.gequbao.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;歌曲宝&lt;/a&gt; 等音乐资源网站下载喜欢的歌曲。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;用 MusicTag 打开歌曲&lt;/strong&gt;&lt;br&gt;
-运行软件后，选择你要编辑的音乐文件。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;搜索并抓取标签信息&lt;/strong&gt;&lt;br&gt;
-软件支持自动从多个音乐数据库中抓取歌曲标题、艺术家、专辑、封面和歌词。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;确认并保存&lt;/strong&gt;&lt;br&gt;
-选择你满意的标签信息，点击保存，完成编辑。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.quark.cn/s/f65d7000c4b8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;夸克网盘&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://pan.baidu.com/s/18vN9wWGbbNC2foEy4MfJEA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;百度网盘&lt;/a&gt;&lt;/strong&gt; &lt;code&gt;提取码：x081&lt;/code&gt;&lt;br&gt;
+&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://wwc.lanzouy.com/ik0lo0ae7bcf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝奏云&lt;/a&gt;&lt;/strong&gt; &lt;code&gt;压缩包密码：www.coolapk.com&lt;/code&gt; &lt;br&gt;&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         <item>
@@ -77,7 +59,8 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>//localhost:1313/about/</guid>
-        <description></description>
+        <description>&lt;h2 id=&#34;建站初衷&#34;&gt;建站初衷
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>技术链接|Links</title>
