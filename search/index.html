@@ -337,34 +337,59 @@ unicode: "eae5"
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topbar@3.0.0/topbar.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 
 <script>
     
-function removeTParam() {
-    if (window.location.search.includes("?t=")) {
-        history.replaceState({}, "", window.location.pathname);
+    function initBackTopBtn() {
+        const rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) return;
+
+        
+        let existingBtn = document.getElementById("backTopBtn");
+        if (existingBtn) existingBtn.remove();
+
+        const btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        rightSideBar.appendChild(btn);
+
+        window.addEventListener("scroll", function () {
+            if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        });
     }
-}
 
-removeTParam();
+    
+    function removeTParam() {
+        if (window.location.search.includes("?t=")) {
+            history.replaceState({}, "", window.location.pathname);
+        }
+    }
+    
+    removeTParam();
 
-function initTwikoo() {
-  const el = document.getElementById('twikoo');
-  if (!el) return;
+    function initTwikoo() {
+        const el = document.getElementById('tcomment');
+        if(!el)return;
+        
+        el.innerHTML = '';
 
-  
-  el.innerHTML = '';
-
-  twikoo.init({
-    envId: 'https://onefour.netlify.app/.netlify/functions/twikoo',
-    el: '#twikoo',
-    path: window.location.pathname 
-  });
-}
-initTwikoo();
+        
+        setTimeout(() => {
+            twikoo.init({
+                envId: 'https:\/\/onefour.netlify.app\/.netlify\/functions\/twikoo',
+                el: '#tcomment',
+                path: decodeURIComponent(window.location.pathname), 
+            });
+        }, 50);
+    }
 </script>
 <script>
-    
+
     const staticDir = "/music/";
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
@@ -457,7 +482,7 @@ initTwikoo();
             }
             
             pjax._handleResponse(responseText, request, href, options);
-            
+
         } else {
             
         }
@@ -470,18 +495,28 @@ initTwikoo();
         }
     });
 
+    
+    document.addEventListener("DOMContentLoaded",
+        () => {
+            initBackTopBtn();
+            initTwikoo();
+        });
+
+
     document.addEventListener('pjax:send', () => {
         
+        removeTParam();
         topbar.show();
-        removeTParam();  
     });
 
     document.addEventListener('pjax:complete', () => {
         
+        initBackTopBtn();
+        removeTParam();
         window.Stack.init();
-        topbar.hide();
         initTwikoo();
-        removeTParam();  
+        
+        topbar.hide();
     });
 </script>
 <style>
@@ -663,35 +698,6 @@ initTwikoo();
     initCodeMoreBox();
 </script>
 
-<script>
-    function initBackTopBtn() {
-        const rightSideBar = document.querySelector(".right-sidebar");
-        if (!rightSideBar) return;
-
-        
-        let existingBtn = document.getElementById("backTopBtn");
-        if (existingBtn) existingBtn.remove();
-
-        const btn = document.createElement("div");
-        btn.id = "backTopBtn";
-        btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
-        rightSideBar.appendChild(btn);
-
-        window.addEventListener("scroll", function () {
-            if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
-        });
-    }
-
-    
-    document.addEventListener("DOMContentLoaded", initBackTopBtn);
-
-    
-    document.addEventListener("pjax:complete", initBackTopBtn);
-</script>
 
 
 <style>
