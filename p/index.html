@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='//localhost:1313/p/'>
 
-<link rel="stylesheet" href="/scss/style.min.9a10ab659bfb63fbd94d4b89aec0c9bf568bc3c80db5c618962206e892fe629a.css"><meta property='og:title' content="">
+<link rel="stylesheet" href="/scss/style.min.6e8c4d6ef6ecf4f1754a50e55aac1a90e3750e944f331ecd7ac4d4c7f8abfd4d.css"><meta property='og:title' content="">
 <meta property='og:description' content="">
 <meta property='og:url' content='//localhost:1313/p/'>
 <meta property='og:site_name' content='ᴏɴᴇ ғᴏᴜʀ'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:modified_time' content='2025-08-14T07:13:22&#43;01:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:modified_time' content='2025-08-16T11:31:44&#43;01:00'/>
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -280,23 +280,18 @@ unicode: "eae5"
     <header class="article-header">
 
     <div class="article-details">
-    
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
             <a href="/p/"></a>
         </h2>
-    
         
-    </div>
-
-    
-    
-    
-    
-    <footer class="article-time">
         
-                <div class="article-lastmod">
+        
+        
+        <footer class="article-time">
+            
+            <div class="article-lastmod">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
@@ -306,14 +301,44 @@ unicode: "eae5"
 
 
                 <time>
-                    Aug 14, 2025 07:13
+                    Aug 16, 2025 11:31
                 </time>
-            </div></footer>
-    
+            </div><div class="article-wordcount">
+                <!--
+unicode: "fef2"
+version: "3.5"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="#9e9e9e"
+  stroke-width="1"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+  <path d="M9 12l1.333 5l1.667 -4l1.667 4l1.333 -5" />
+</svg>
 
+                <span>
+                    0 字
+                </span>
+            </div>
+
+
+        </footer>
+        
+
+        
+    </div>
+
+    
     
 </div>
-
 </header>
 
     <section class="article-content">
@@ -348,7 +373,7 @@ unicode: "eae5"
 
 
         <span>
-            最后更新于 Aug 14, 2025 07:13
+            最后更新于 Aug 16, 2025 11:31
         </span>
     </section></footer>
 
@@ -428,11 +453,10 @@ unicode: "eae5"
         background-color: var(--body-background) !important;
         color: var(--body-text-color) !important;
     }
-</style><script>
-    twikoo.init({
-        envId: 'https:\/\/onefour.netlify.app\/.netlify\/functions\/twikoo',
-        el: '#tcomment',})
-</script>
+</style>
+
+
+
 
     
 
@@ -552,8 +576,59 @@ unicode: "eae5"
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topbar@3.0.0/topbar.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 
 <script>
+    
+    function initBackTopBtn() {
+        const rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) return;
+
+        
+        let existingBtn = document.getElementById("backTopBtn");
+        if (existingBtn) existingBtn.remove();
+
+        const btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+        rightSideBar.appendChild(btn);
+
+        window.addEventListener("scroll", function () {
+            if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        });
+    }
+
+    
+    function removeTParam() {
+        if (window.location.search.includes("?t=")) {
+            history.replaceState({}, "", window.location.pathname);
+        }
+    }
+    
+    removeTParam();
+
+    function initTwikoo() {
+        const el = document.getElementById('tcomment');
+        if(!el)return;
+        
+        el.innerHTML = '';
+
+        
+        setTimeout(() => {
+            twikoo.init({
+                envId: 'https:\/\/onefour.netlify.app\/.netlify\/functions\/twikoo',
+                el: '#tcomment',
+                path: decodeURIComponent(window.location.pathname), 
+            });
+        }, 50);
+    }
+</script>
+<script>
+
     const staticDir = "/music/";
     const ap = new APlayer({
         container: document.getElementById('aplayer'),
@@ -646,17 +721,11 @@ unicode: "eae5"
             }
             
             pjax._handleResponse(responseText, request, href, options);
+
         } else {
             
         }
     };
-    document.addEventListener('pjax:complete', () => {
-        
-        window.Stack.init();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        }
-    });
     
     topbar.config({
         barColors: {
@@ -665,15 +734,26 @@ unicode: "eae5"
         }
     });
 
+    
+    document.addEventListener("DOMContentLoaded",
+        () => {
+            initBackTopBtn();
+            initTwikoo();
+        });
+
+
     document.addEventListener('pjax:send', () => {
         
+        removeTParam();
         topbar.show();
-        if (window.location.search.includes("?t=")) {
-            history.replaceState({}, "", window.location.pathname);
-        };
     });
 
     document.addEventListener('pjax:complete', () => {
+        
+        initBackTopBtn();
+        removeTParam();
+        window.Stack.init();
+        initTwikoo();
         
         topbar.hide();
     });
@@ -857,35 +937,7 @@ unicode: "eae5"
     initCodeMoreBox();
 </script>
 
-<script>
-    function initBackTopBtn() {
-        const rightSideBar = document.querySelector(".right-sidebar");
-        if (!rightSideBar) return;
 
-        
-        let existingBtn = document.getElementById("backTopBtn");
-        if (existingBtn) existingBtn.remove();
-
-        const btn = document.createElement("div");
-        btn.id = "backTopBtn";
-        btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
-        rightSideBar.appendChild(btn);
-
-        window.addEventListener("scroll", function () {
-            if (document.documentElement.scrollTop > 20 || document.body.scrollTop > 20) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
-        });
-    }
-
-    
-    document.addEventListener("DOMContentLoaded", initBackTopBtn);
-
-    
-    document.addEventListener("pjax:complete", initBackTopBtn);
-</script>
 
 <style>
     @font-face {
