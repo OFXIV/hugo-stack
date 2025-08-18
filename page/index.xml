@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright>
-        <lastBuildDate>Fri, 15 Aug 2025 15:29:57 +0100</lastBuildDate><atom:link href="//localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Aug 2025 05:47:04 +0100</lastBuildDate><atom:link href="//localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档 | Archives</title>
         <link>//localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -39,6 +39,20 @@
         
         <guid>//localhost:1313/search/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>微信 | wechat</title>
+        <link>//localhost:1313/wechat/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>//localhost:1313/wechat/</guid>
+        <description>&lt;figure&gt;&lt;img src=&#34;//localhost:1313/wechat/wechat.jpg&#34;
+    alt=&#34;微信&#34; width=&#34;200&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;OFXIV14&lt;/h4&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
         </item>
         
     </channel>
