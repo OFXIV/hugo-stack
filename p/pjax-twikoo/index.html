@@ -2,17 +2,18 @@
 <html lang="en-us" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="给博客加上评论区并解决hugo stack运用pjax无刷新加载技术从而导致twikoo出现的问题">
-<title>Pjax&#43;Twikoo给自己的博客加上评论区</title>
+<title>Pjax&#43;Twikoo评论区创建并解决问题</title>
 
 <link rel='canonical' href='//localhost:1313/p/pjax-twikoo/'>
 
-<link rel="stylesheet" href="/scss/style.min.3c22ade319606c84811a3f9b58e5988ae6ef984ec50c68491f697e5ff93d9498.css"><meta property='og:title' content="Pjax+Twikoo给自己的博客加上评论区">
+<link rel="stylesheet" href="/scss/style.min.7de47f1709ae490534a90d7a3140932a2829ab2f00b0ab9311506e460fff8976.css"><meta property='og:title' content="Pjax+Twikoo评论区创建并解决问题">
 <meta property='og:description' content="给博客加上评论区并解决hugo stack运用pjax无刷新加载技术从而导致twikoo出现的问题">
 <meta property='og:url' content='//localhost:1313/p/pjax-twikoo/'>
 <meta property='og:site_name' content='ᴏɴᴇ ғᴏᴜʀ'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Hugo' /><meta property='article:tag' content='Stack' /><meta property='article:tag' content='Pjax' /><meta property='article:tag' content='Twikoo' /><meta property='article:published_time' content='2025-08-16T03:51:56&#43;01:00'/><meta property='article:modified_time' content='2025-08-16T10:10:21&#43;01:00'/>
-<meta name="twitter:title" content="Pjax+Twikoo给自己的博客加上评论区">
-<meta name="twitter:description" content="给博客加上评论区并解决hugo stack运用pjax无刷新加载技术从而导致twikoo出现的问题">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Hugo' /><meta property='article:tag' content='Stack' /><meta property='article:tag' content='Pjax' /><meta property='article:tag' content='Twikoo' /><meta property='article:published_time' content='2025-08-16T03:51:56&#43;01:00'/><meta property='article:modified_time' content='2025-08-19T11:20:05&#43;01:00'/><meta property='og:image' content='//localhost:1313/p/pjax-twikoo/pjax-twikoo.png' />
+<meta name="twitter:title" content="Pjax+Twikoo评论区创建并解决问题">
+<meta name="twitter:description" content="给博客加上评论区并解决hugo stack运用pjax无刷新加载技术从而导致twikoo出现的问题"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='//localhost:1313/p/pjax-twikoo/pjax-twikoo.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ831LXLPG"></script>
@@ -433,17 +434,67 @@ version: "1.114"
         </li>
     </ol>
 </aside>
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#添加twikoo">添加Twikoo</a></li>
+    <li><a href="#pjax导致twikoo出现的问题">Pjax导致Twikoo出现的问题</a>
+      <ol>
+        <li><a href="#用twikoo遇到的问题">用Twikoo遇到的问题</a></li>
+        <li><a href="#最后修改">最后修改</a></li>
+      </ol>
+    </li>
+    <li><a href="#感言">感言</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/pjax-twikoo/">
+                <img src="/p/pjax-twikoo/pjax-twikoo_hu_8a4047a268bd49cb.png"
+                        srcset="/p/pjax-twikoo/pjax-twikoo_hu_8a4047a268bd49cb.png 800w, /p/pjax-twikoo/pjax-twikoo_hu_a8441d229df2fb06.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post Pjax&#43;Twikoo评论区创建并解决问题" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/pjax-twikoo/">Pjax&#43;Twikoo给自己的博客加上评论区</a>
+            <a href="/p/pjax-twikoo/">Pjax&#43;Twikoo评论区创建并解决问题</a>
         </h2>
         
         
@@ -474,7 +525,7 @@ version: "1.114"
 
 
                 <time>
-                    Aug 16, 2025 10:10
+                    Aug 19, 2025 11:20
                 </time>
             </div><div class="article-wordcount">
                 <!--
@@ -498,7 +549,7 @@ version: "3.5"
 </svg>
 
                 <span>
-                    0 字
+                    1197 字
                 </span>
             </div>
 
@@ -533,7 +584,158 @@ version: "3.5"
     <section class="article-content">
     
     
-    
+    <p>为什么要使用<strong>twikoo</strong>作为我的评论区？我的理由</p>
+<ul>
+<li>免费、简单</li>
+<li>多域名 <code>网站不只部署在同一个服务器，有些是会限域名的</code></li>
+<li><a class="link" href="https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2"  target="_blank" rel="noopener"
+    >twikoo</a></li>
+</ul>
+<h2 id="添加twikoo">添加Twikoo
+</h2><p><code>Stack</code>配置文件内置有<code>twikoo</code>评论区，在<code>hugo.yaml</code>改一下配置就能启动，主要是配置<code>twikoo</code>的<code>envId</code><br>
+在网站用上<code>twikoo</code>云函数和前端都需要部署，官方都有详细的介绍，可以去<a class="link" href="https://twikoo.js.org"  target="_blank" rel="noopener"
+    >twikoo</a>去部署好获取envId,需要注意的是如果是用MongoDB Atlas这个当数据库的话，连接字符串记得改里面的<code>&lt;username&gt;:&lt;password&gt;</code>为创建的<code>用户名:密码</code>，当时我就直接复制去部署了，发现没改后去后台服务器改了没效果，最后删了重新部署才行<br>
+云函数部署好会得到<code>envId</code>，<code>Hugo-Stack</code>主题有写好的配置，直接把它复制进<code>hugo.yaml</code>文件里启动就可以了，现在Twikoo就能用了<br>
+<img src="/p/pjax-twikoo/twikoo-comment001.png"
+	width="659"
+	height="380"
+	srcset="/p/pjax-twikoo/twikoo-comment001_hu_26b570eea6803ccc.png 480w, /p/pjax-twikoo/twikoo-comment001_hu_a61f8e0c3ee469fc.png 1024w"
+	loading="lazy"
+	
+		alt="Twikoo评论区域"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="173"
+		data-flex-basis="416px"
+	
+><br></p>
+<h2 id="pjax导致twikoo出现的问题">Pjax导致Twikoo出现的问题
+</h2><p>假如你的网页没有用Pjax无刷新加载技术的话，应该是没有这个问题的，下面的就可以不用看了<br>
+假如你Pjax无刷新加载技术遇到的问题有很多的话，可以去看下<a class="link" href="https://letere-gzj.github.io/hugo-stack/p/hugo/pjax/"  target="_blank" rel="noopener"
+    >莱特雷-letere</a>的博客，本站出现很多问题也是根据这个帖子来修改的，只是我现在用的是Twikoo，他用的是giscus，我用他的方法改并没有效果</p>
+<h3 id="用twikoo遇到的问题">用Twikoo遇到的问题
+</h3><p>装好之后，在主页进入帖子评论区显示但不会显示之前的评论，点击去往其他页面，刚才帖子评论区的评论，出现在新的页面上，实际上这个页面并没有这个评论<br>
+首先，需要知道的是应当是<strong>路径问题</strong>，只需要把对的路径获取出来刷新一遍就可以了<br>
+在<code>layouts/partials/custom.html</code>写上代码:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">//</span> <span class="o">--------</span> <span class="err">去掉</span><span class="n">PJAX</span> <span class="err">脚本给</span> <span class="n">URL</span> <span class="err">加上的时间戳</span>  <span class="err">?</span><span class="n">t</span><span class="o">=</span><span class="n">xxxx</span> <span class="o">--------</span>
+</span></span><span class="line"><span class="cl">    <span class="n">function</span> <span class="n">removeTParam</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">window</span><span class="o">.</span><span class="n">location</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">includes</span><span class="p">(</span><span class="s2">&#34;?t=&#34;</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">history</span><span class="o">.</span><span class="n">replaceState</span><span class="p">({},</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="n">window</span><span class="o">.</span><span class="n">location</span><span class="o">.</span><span class="n">pathname</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">//</span> <span class="err">首次加载时立即去掉</span>
+</span></span><span class="line"><span class="cl">    <span class="n">removeTParam</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">function</span> <span class="n">initTwikoo</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">const</span> <span class="n">el</span> <span class="o">=</span> <span class="n">document</span><span class="o">.</span><span class="n">getElementById</span><span class="p">(</span><span class="s1">&#39;tcomment&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">el</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">//</span> <span class="err">清空旧实例，防止重复渲染</span>
+</span></span><span class="line"><span class="cl">        <span class="n">el</span><span class="o">.</span><span class="n">innerHTML</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="o">//</span> <span class="err">初始化</span> <span class="n">Twikoo</span>
+</span></span><span class="line"><span class="cl">        <span class="n">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">twikoo</span><span class="o">.</span><span class="n">init</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">                <span class="n">envId</span><span class="p">:</span> <span class="s1">&#39;{{ .Site.Params.comments.twikoo.envId }}&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">el</span><span class="p">:</span> <span class="s1">&#39;#tcomment&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">path</span><span class="p">:</span> <span class="n">decodeURIComponent</span><span class="p">(</span><span class="n">window</span><span class="o">.</span><span class="n">location</span><span class="o">.</span><span class="n">pathname</span><span class="p">),</span> <span class="o">//</span> <span class="err">使用唯一页面路径</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span> <span class="mi">50</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">//</span> <span class="err">首次页面加载</span>
+</span></span><span class="line"><span class="cl">    <span class="n">document</span><span class="o">.</span><span class="n">addEventListener</span><span class="p">(</span><span class="s2">&#34;DOMContentLoaded&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="o">//</span><span class="err">其他</span><span class="o">...</span>
+</span></span><span class="line"><span class="cl">            <span class="n">initTwikoo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">document</span><span class="o">.</span><span class="n">addEventListener</span><span class="p">(</span><span class="s1">&#39;pjax:send&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="o">//</span><span class="err">其他</span><span class="o">...</span>
+</span></span><span class="line"><span class="cl">        <span class="n">removeTParam</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">document</span><span class="o">.</span><span class="n">addEventListener</span><span class="p">(</span><span class="s1">&#39;pjax:complete&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="o">//</span><span class="err">其他</span><span class="o">...</span>
+</span></span><span class="line"><span class="cl">        <span class="n">removeTParam</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">window</span><span class="o">.</span><span class="n">Stack</span><span class="o">.</span><span class="n">init</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">initTwikoo</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>有没有发现多上这个<code>removeTParam()</code>，用这个pjax会在网址加上当前时间戳?t=xxxx的，不知道有没有影响，就先去掉了<br>
+最后发现还是一样的问题，没有变化，然后去调试发现<code>initTwikoo()</code>根本就没用上,<code>if (!el) return;</code>在这就收工了<br></p>
+<h3 id="最后修改">最后修改
+</h3><p>最后去查看了一下主题<code>twikoo</code>的源码<code>/layouts/partials/comments/provider/twikoo.html</code>
+<img src="/p/pjax-twikoo/twikoo-stack.png"
+	width="363"
+	height="352"
+	srcset="/p/pjax-twikoo/twikoo-stack_hu_f5c316f335351bde.png 480w, /p/pjax-twikoo/twikoo-stack_hu_b6b64ec77bfa83cc.png 1024w"
+	loading="lazy"
+	
+		alt="twikoo"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="103"
+		data-flex-basis="247px"
+	
+><br>
+应该是这个源码一开始就已经初始化，所有的页面都初始化了一个评论区，所以我们只需要把上面这部分源码<strong>注销掉</strong>就可以使用自己的，解决所有的问题。<br></p>
+<h2 id="感言">感言
+</h2><p>其实一开始建这个站是没有这么多功夫要整的，后面又想整一个音乐播放出来，纳就是左下角那个，<del>万恶之源</del></p>
+
 </section>
 
 
@@ -552,18 +754,6 @@ version: "3.5"
     </section>
 
 
-    
-    <section class="article-copyright">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
-</svg>
-
-
-
-        <span>Licensed under CC BY-NC-SA 4.0</span>
-    </section>
     <section class="article-lastmod">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -574,7 +764,7 @@ version: "3.5"
 
 
         <span>
-            最后更新于 Aug 16, 2025 10:10
+            最后更新于 Aug 19, 2025 11:20
         </span>
     </section></footer>
 
@@ -618,9 +808,20 @@ version: "3.5"
         <div class="flex article-list--tile">
             
                 
-<article class="">
+<article class="has-image">
     <a href="/p/hugo-stack-optimization/">
         
+        
+            <div class="article-image">
+                <img src="/p/hugo-stack-optimization/Hugo-Stack.ad4cbbf39c62ef028b1b2cf7e8dd28f1_hu_ed952be281647004.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Hugo-Stack主题美化 "
+                        data-key="hugo-stack-optimization" 
+                        data-hash="md5-rUy785xi7wKLGyz36N0o8Q==">
+                
+            </div>
         
 
         <div class="article-details">
@@ -1004,7 +1205,7 @@ version: "3.5"
     topbar.config({
         barColors: {
             '0': 'rgba(255,  255, 255, 1)', 
-            '1.0': 'rgba(0, 149, 234,  1)' 
+            '1.0': 'rgba(120, 158, 220,  1)' 
         }
     });
 
@@ -1031,6 +1232,7 @@ version: "3.5"
         
         topbar.hide();
         initTocHide();
+        initCodeMoreBox();
     });
 </script>
 

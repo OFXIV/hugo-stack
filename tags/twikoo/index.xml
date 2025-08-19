@@ -7,13 +7,38 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright>
-        <lastBuildDate>Sat, 16 Aug 2025 10:10:21 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/twikoo/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Pjax&#43;Twikoo给自己的博客加上评论区</title>
+        <lastBuildDate>Tue, 19 Aug 2025 11:04:58 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/twikoo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Pjax&#43;Twikoo评论区创建并解决问题</title>
         <link>//localhost:1313/p/pjax-twikoo/</link>
         <pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate>
         
         <guid>//localhost:1313/p/pjax-twikoo/</guid>
-        <description></description>
+        <description>&lt;img src="//localhost:1313/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax&#43;Twikoo评论区创建并解决问题" /&gt;&lt;p&gt;为什么要使用&lt;code&gt;twikoo&lt;/code&gt;作为我的评论区？我的理由&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;免费、简单&lt;/li&gt;
+&lt;li&gt;多域名 &lt;code&gt;网站不只部署在同一个服务器，有些是会限域名的&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;twikoo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;添加twikoo&#34;&gt;添加Twikoo
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Stack&lt;/code&gt;配置文件内置有&lt;code&gt;twikoo&lt;/code&gt;评论区，在&lt;code&gt;hugo.yaml&lt;/code&gt;改一下配置就能启动，主要是配置&lt;code&gt;twikoo&lt;/code&gt;的&lt;code&gt;envId&lt;/code&gt;&lt;br&gt;
+在网站用上&lt;code&gt;twikoo&lt;/code&gt;云函数和前端都需要部署，官方都有详细的介绍，可以去&lt;a class=&#34;link&#34; href=&#34;https://twikoo.js.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;twikoo&lt;/a&gt;去部署好获取envId,需要注意的是如果是用MongoDB Atlas这个当数据库的话，连接字符串记得改里面的&lt;code&gt;&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;&lt;/code&gt;为创建的&lt;code&gt;用户名:密码&lt;/code&gt;，当时我就直接复制去部署了，发现没改后去后台服务器改了没效果，最后删了重新部署才行&lt;br&gt;
+云函数部署好会得到&lt;code&gt;envId&lt;/code&gt;，&lt;code&gt;Hugo-Stack&lt;/code&gt;主题有写好的配置，直接把它复制进&lt;code&gt;hugo.yaml&lt;/code&gt;文件里启动就可以了，现在Twikoo就能用了&lt;br&gt;
+&lt;img src=&#34;//localhost:1313/p/pjax-twikoo/twikoo-comment001.png&#34;
+	width=&#34;659&#34;
+	height=&#34;380&#34;
+	srcset=&#34;//localhost:1313/p/pjax-twikoo/twikoo-comment001_hu_26b570eea6803ccc.png 480w, //localhost:1313/p/pjax-twikoo/twikoo-comment001_hu_a61f8e0c3ee469fc.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Twikoo评论区域&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;br&gt;&lt;/p&gt;</description>
         </item>
         
     </channel>

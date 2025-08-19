@@ -7,176 +7,49 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright>
-        <lastBuildDate>Sat, 16 Aug 2025 12:23:55 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Aug 2025 11:04:58 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo-Stack主题美化 </title>
         <link>//localhost:1313/p/hugo-stack-optimization/</link>
         <pubDate>Sat, 16 Aug 2025 10:07:13 +0100</pubDate>
         
         <guid>//localhost:1313/p/hugo-stack-optimization/</guid>
-        <description>&lt;h2 id=&#34;优化浅色模式背景&#34;&gt;优化浅色模式背景
+        <description>&lt;img src="//localhost:1313/p/hugo-stack-optimization/Hugo-Stack.png" alt="Featured image of post Hugo-Stack主题美化 " /&gt;&lt;h2 id=&#34;优化浅色模式背景&#34;&gt;优化浅色模式背景
 &lt;/h2&gt;&lt;p&gt;其实，配置完了这个stack主题后，感觉浅色背景就是比较瞎眼 &lt;del&gt;已经眼瞎了&lt;/del&gt;&lt;br&gt;
 首先我想直接插入图片进行更改，然后发现大部分背景这样并不显得好看，文字可读性也会降低&lt;br&gt;
-然后就直接改背景颜色就ok了,首先要追随源码的样式&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&#34;样式的源码&#34;&gt;样式的源码
-&lt;/h3&gt;&lt;p&gt;在&lt;code&gt;Stack&lt;/code&gt;主题文件夹下&lt;code&gt;/assets/scss/&lt;/code&gt;找到了&lt;code&gt;variables.scss&lt;/code&gt;文件&lt;br&gt;
-从中找到了需要改的代码&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/hugo-stack-optimization/body-color.png&#34;
-	width=&#34;361&#34;
-	height=&#34;268&#34;
-	srcset=&#34;//localhost:1313/p/hugo-stack-optimization/body-color_hu_66e8bac8a1cf9875.png 480w, //localhost:1313/p/hugo-stack-optimization/body-color_hu_508baf5e8f4ef415.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;整个页面主体色彩&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;134&#34;
-		data-flex-basis=&#34;323px&#34;
-	
-&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;//localhost:1313/p/hugo-stack-optimization/card-color.png&#34;
-	width=&#34;488&#34;
-	height=&#34;183&#34;
-	srcset=&#34;//localhost:1313/p/hugo-stack-optimization/card-color_hu_a8606ed58244681.png 480w, //localhost:1313/p/hugo-stack-optimization/card-color_hu_31ac688a7af9136a.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;卡片组件色彩&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;266&#34;
-		data-flex-basis=&#34;640px&#34;
-	
-&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&#34;样式含义与用途&#34;&gt;样式含义与用途
-&lt;/h3&gt;&lt;h4 id=&#34;整个页面主体色彩控制&#34;&gt;整个页面主体色彩控制
-&lt;/h4&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;变量名&lt;/th&gt;
-          &lt;th&gt;含义&lt;/th&gt;
-          &lt;th&gt;示例用途&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--body-background&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;页面主体背景色&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; 背景色&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--accent-color&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;主强调色（按钮、链接等）&lt;/td&gt;
-          &lt;td&gt;按钮背景色、重要元素&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--accent-color-darker&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;主强调色的深色版本&lt;/td&gt;
-          &lt;td&gt;鼠标悬停、边框&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--accent-color-text&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;强调色上的文字颜色&lt;/td&gt;
-          &lt;td&gt;强调按钮上的文字&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--body-text-color&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;页面正文文字颜色&lt;/td&gt;
-          &lt;td&gt;普通段落文本&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h4 id=&#34;卡片组件色彩控制&#34;&gt;卡片组件色彩控制
-&lt;/h4&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;变量名&lt;/th&gt;
-          &lt;th&gt;含义&lt;/th&gt;
-          &lt;th&gt;示例用途&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--card-background&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;卡片默认背景色&lt;/td&gt;
-          &lt;td&gt;卡片整体背景&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--card-background-selected&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;卡片被选中或悬停时背景色&lt;/td&gt;
-          &lt;td&gt;hover 或 active 状态&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--card-text-color-main&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;卡片主文字颜色&lt;/td&gt;
-          &lt;td&gt;标题、正文&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--card-text-color-secondary&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;次要文字颜色&lt;/td&gt;
-          &lt;td&gt;副标题、描述&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;--card-text-color-tertiary&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;第三级文字颜色&lt;/td&gt;
-          &lt;td&gt;注释、小标签&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;改动&#34;&gt;改动
-&lt;/h3&gt;&lt;p&gt;知道是怎么一回事，就可以着手改动了，首先需要回到项目的目录下，找到&lt;code&gt;/assets/scss/custom.scss&lt;/code&gt;文件，没有就创建，这是供用户自定义的，并不推荐直接改主题源码&lt;br&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;为什么不改源码也能直接背景颜色？&lt;/strong&gt;&lt;br&gt;
-这个文件处于样式文件的末尾，最后才引入这个文件&lt;br&gt;
-从而覆盖原先的属性，达到“自定义”的效果。&lt;br&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;把要修改的代码复制下来放进&lt;code&gt;custom.scss&lt;/code&gt;文件里修改&lt;br&gt;
-下面这个是目前我的网站在用的 &lt;del&gt;可能用着用着就又改了&lt;/del&gt;&lt;br&gt;
-&lt;strong&gt;蓝莓奶油风&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;:root {
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --body-background: #F2F5FB;          /* 柔和奶蓝背景 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --body-text-color: #2A3650;          /* 深蓝文字 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --accent-color: #789EDC;             /* 蓝莓色按钮/链接 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --accent-color-darker: #4D6FB0;      /* hover 深蓝 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --accent-color-text: #FFFFFF;         /* 白色文字 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --card-background: #FFFFFF;           /* 卡片背景 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --card-background-selected: #DCE4F7;  /* hover 浅蓝 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --card-text-color-main: #2A3650;      /* 主文字 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --card-text-color-secondary: #5A6F8C; /* 次文字 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  --card-text-color-tertiary: #889AB0;  /* 第三级文字 */
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;也可以把它丢给AI，让它给个配色方案，慢慢调自己喜欢的&lt;/p&gt;
-&lt;h2 id=&#34;修改网站布局&#34;&gt;修改网站布局
-&lt;/h2&gt;</description>
+然后就直接改背景颜色就ok了,首先要追随源码的样式&lt;br&gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>Pjax&#43;Twikoo给自己的博客加上评论区</title>
+        <title>Pjax&#43;Twikoo评论区创建并解决问题</title>
         <link>//localhost:1313/p/pjax-twikoo/</link>
         <pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate>
         
         <guid>//localhost:1313/p/pjax-twikoo/</guid>
-        <description></description>
+        <description>&lt;img src="//localhost:1313/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax&#43;Twikoo评论区创建并解决问题" /&gt;&lt;p&gt;为什么要使用&lt;code&gt;twikoo&lt;/code&gt;作为我的评论区？我的理由&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;免费、简单&lt;/li&gt;
+&lt;li&gt;多域名 &lt;code&gt;网站不只部署在同一个服务器，有些是会限域名的&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;twikoo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;添加twikoo&#34;&gt;添加Twikoo
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;Stack&lt;/code&gt;配置文件内置有&lt;code&gt;twikoo&lt;/code&gt;评论区，在&lt;code&gt;hugo.yaml&lt;/code&gt;改一下配置就能启动，主要是配置&lt;code&gt;twikoo&lt;/code&gt;的&lt;code&gt;envId&lt;/code&gt;&lt;br&gt;
+在网站用上&lt;code&gt;twikoo&lt;/code&gt;云函数和前端都需要部署，官方都有详细的介绍，可以去&lt;a class=&#34;link&#34; href=&#34;https://twikoo.js.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;twikoo&lt;/a&gt;去部署好获取envId,需要注意的是如果是用MongoDB Atlas这个当数据库的话，连接字符串记得改里面的&lt;code&gt;&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;&lt;/code&gt;为创建的&lt;code&gt;用户名:密码&lt;/code&gt;，当时我就直接复制去部署了，发现没改后去后台服务器改了没效果，最后删了重新部署才行&lt;br&gt;
+云函数部署好会得到&lt;code&gt;envId&lt;/code&gt;，&lt;code&gt;Hugo-Stack&lt;/code&gt;主题有写好的配置，直接把它复制进&lt;code&gt;hugo.yaml&lt;/code&gt;文件里启动就可以了，现在Twikoo就能用了&lt;br&gt;
+&lt;img src=&#34;//localhost:1313/p/pjax-twikoo/twikoo-comment001.png&#34;
+	width=&#34;659&#34;
+	height=&#34;380&#34;
+	srcset=&#34;//localhost:1313/p/pjax-twikoo/twikoo-comment001_hu_26b570eea6803ccc.png 480w, //localhost:1313/p/pjax-twikoo/twikoo-comment001_hu_a61f8e0c3ee469fc.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Twikoo评论区域&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;br&gt;&lt;/p&gt;</description>
         </item>
         
     </channel>
