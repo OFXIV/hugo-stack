@@ -1,30 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>工具 on ᴏɴᴇ ғᴏᴜʀ</title>
-        <link>//localhost:1313/categories/%E5%B7%A5%E5%85%B7/</link>
-        <description>Recent content in 工具 on ᴏɴᴇ ғᴏᴜʀ</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright>
-        <lastBuildDate>Fri, 15 Aug 2025 15:29:57 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>MusicTag</title>
-        <link>//localhost:1313/p/musictag/</link>
-        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-        
-        <guid>//localhost:1313/p/musictag/</guid>
-        <description>&lt;img src="//localhost:1313/p/musictag/musictag.png" alt="Featured image of post MusicTag" /&gt;&lt;h3 id=&#34;blush-概述&#34;&gt;&amp;#x1f60a; 概述
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;MusicTag&lt;/strong&gt; 是一款音乐刮削工具，就是查找音乐的源信息&lt;br&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;支持多种主流音频格式：&lt;/em&gt;&lt;br&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;FLAC, APE, WAV, AIFF, WV, TTA&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;MP3, MP4, M4A, OGG, MPC, OPUS&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;WMA, DSF, DFF 等&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;总的来说，有这个工具你就能查找音乐的各种信息&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;但是没有歌就要另外去找了，这里推荐几个网站下载：&lt;/em&gt;&lt;br&gt;&lt;/p&gt;</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工具 on ᴏɴᴇ ғᴏᴜʀ</title><link>/categories/%E5%B7%A5%E5%85%B7/</link><description>Recent content in 工具 on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Tue, 19 Aug 2025 11:54:32 +0100</lastBuildDate><atom:link href="/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>MusicTag</title><link>/p/musictag/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate><guid>/p/musictag/</guid><description>&lt;img src="/p/musictag/musictag.png" alt="Featured image of post MusicTag" />&lt;h2 id="1-blush-概述">1. &amp;#x1f60a; 概述
+&lt;/h2>&lt;p>&lt;strong>MusicTag&lt;/strong> 是一款音乐刮削工具，就是查找音乐的源信息&lt;br>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>支持多种主流音频格式：&lt;/em>&lt;br>&lt;/p>
+&lt;ul>
+&lt;li>FLAC, APE, WAV, AIFF, WV, TTA&lt;br>&lt;/li>
+&lt;li>MP3, MP4, M4A, OGG, MPC, OPUS&lt;br>&lt;/li>
+&lt;li>WMA, DSF, DFF 等&lt;br>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>总的来说，有这个工具你就能查找音乐的各种信息&lt;/em>&lt;br>
+&lt;em>但是没有歌就要另外去找了，这里推荐几个网站下载：&lt;/em>&lt;br>&lt;/p></description></item></channel></rss>

@@ -1,57 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Pages on ᴏɴᴇ ғᴏᴜʀ</title>
-        <link>//localhost:1313/page/</link>
-        <description>Recent content in Pages on ᴏɴᴇ ғᴏᴜʀ</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>ᴏɴᴇ ғᴏᴜʀ</copyright>
-        <lastBuildDate>Mon, 18 Aug 2025 05:47:04 +0100</lastBuildDate><atom:link href="//localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>归档 | Archives</title>
-        <link>//localhost:1313/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>//localhost:1313/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>关于 | About</title>
-        <link>//localhost:1313/about/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>//localhost:1313/about/</guid>
-        <description>&lt;h2 id=&#34;建站初衷&#34;&gt;建站初衷
-&lt;/h2&gt;</description>
-        </item>
-        <item>
-        <title>技术链接|Links</title>
-        <link>//localhost:1313/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>//localhost:1313/links/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>搜索 | Search</title>
-        <link>//localhost:1313/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>//localhost:1313/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>微信 | wechat</title>
-        <link>//localhost:1313/wechat/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>//localhost:1313/wechat/</guid>
-        <description>&lt;figure&gt;&lt;img src=&#34;//localhost:1313/wechat/wechat.jpg&#34;
-    alt=&#34;微信&#34; width=&#34;200&#34;&gt;&lt;figcaption&gt;
-      &lt;h4&gt;OFXIV14&lt;/h4&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on ᴏɴᴇ ғᴏᴜʀ</title><link>/page/</link><description>Recent content in Pages on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Tue, 19 Aug 2025 11:54:32 +0100</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档 | Archives</title><link>/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>/archives/</guid><description/></item><item><title>关于 | About</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;h2 id="建站初衷">建站初衷
+&lt;/h2>&lt;ul>
+&lt;li>管理资源&lt;/li>
+&lt;li>整理信息&lt;/li>
+&lt;li>提升自我&lt;/li>
+&lt;li>分享内容&lt;/li>
+&lt;/ul></description></item><item><title>技术链接|Links</title><link>/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/links/</guid><description/></item><item><title>搜索 | Search</title><link>/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/search/</guid><description/></item><item><title>微信 | wechat</title><link>/wechat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/wechat/</guid><description>&lt;figure>&lt;img src="/wechat/wechat.jpg"
+alt="微信" width="200">&lt;figcaption>
+&lt;h4>OFXIV14&lt;/h4>
+&lt;/figcaption>
+&lt;/figure></description></item></channel></rss>
