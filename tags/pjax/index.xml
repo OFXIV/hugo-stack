@@ -1,12 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pjax on ᴏɴᴇ ғᴏᴜʀ</title><link>/tags/pjax/</link><description>Recent content in Pjax on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Tue, 19 Aug 2025 11:54:32 +0100</lastBuildDate><atom:link href="/tags/pjax/index.xml" rel="self" type="application/rss+xml"/><item><title>Pjax+Twikoo评论区创建并解决问题</title><link>/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>/p/pjax-twikoo/</guid><description>&lt;img src="/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区创建并解决问题" />&lt;p>为什么要使用&lt;strong>twikoo&lt;/strong>作为我的评论区？我的理由&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pjax on ᴏɴᴇ ғᴏᴜʀ</title><link>/tags/pjax/</link><description>Recent content in Pjax on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Wed, 20 Aug 2025 12:40:15 +0100</lastBuildDate><atom:link href="/tags/pjax/index.xml" rel="self" type="application/rss+xml"/><item><title>Pjax+Twikoo评论区引入并修复</title><link>/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>/p/pjax-twikoo/</guid><description>&lt;img src="/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区引入并修复" />&lt;blockquote class="alert alert-note">
 &lt;ul>
-&lt;li>免费、简单&lt;/li>
-&lt;li>多域名 &lt;code>网站不只部署在同一个服务器，有些是会限域名的&lt;/code>&lt;/li>
+&lt;li>为什么使用&lt;strong>twikoo&lt;/strong>
+&lt;ul>
+&lt;li>免费、部署简单&lt;/li>
+&lt;li>无域名限制&lt;/li>
 &lt;li>&lt;a class="link" href="https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2" target="_blank" rel="noopener"
->twikoo&lt;/a>&lt;/li>
+>twikoo&lt;/a>&lt;em>查看更多&lt;/em>&lt;/li>
 &lt;/ul>
-&lt;h2 id="添加twikoo">添加Twikoo
-&lt;/h2>&lt;p>&lt;code>Stack&lt;/code>配置文件内置有&lt;code>twikoo&lt;/code>评论区，在&lt;code>hugo.yaml&lt;/code>改一下配置就能启动，主要是配置&lt;code>twikoo&lt;/code>的&lt;code>envId&lt;/code>&lt;br>
-在网站用上&lt;code>twikoo&lt;/code>云函数和前端都需要部署，官方都有详细的介绍，可以去&lt;a class="link" href="https://twikoo.js.org" target="_blank" rel="noopener"
->twikoo&lt;/a>去部署好获取envId,需要注意的是如果是用MongoDB Atlas这个当数据库的话，连接字符串记得改里面的&lt;code>&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;&lt;/code>为创建的&lt;code>用户名:密码&lt;/code>，当时我就直接复制去部署了，发现没改后去后台服务器改了没效果，最后删了重新部署才行&lt;br>
-云函数部署好会得到&lt;code>envId&lt;/code>，&lt;code>Hugo-Stack&lt;/code>主题有写好的配置，直接把它复制进&lt;code>hugo.yaml&lt;/code>文件里启动就可以了，现在Twikoo就能用了&lt;br>&lt;/p></description></item></channel></rss>
+&lt;/li>
+&lt;/ul>&lt;/blockquote>
+&lt;h2 id="1-引入twikoo">1. 引入Twikoo
+&lt;/h2>&lt;h3 id="11-部署">1.1 部署
+&lt;/h3>&lt;p>&lt;code>Twikoo&lt;/code> 分为&lt;strong>云函数&lt;/strong>和&lt;strong>前端&lt;/strong>两部分，需要同时部署&lt;br>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>云函数部署&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>twikoo&lt;/code>有多种云函数部署方式，具体的可以到官网查看教程选择&lt;a class="link" href="https://twikoo.js.org/backend.html" target="_blank" rel="noopener"
+>twikoo云函数部署&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>前端部署&lt;/strong>
+&lt;ul>
+&lt;li>&lt;code>twikoo&lt;/code>有多种网站框架的不同主题的配置方式&lt;a class="link" href="https://twikoo.js.org/frontend.html" target="_blank" rel="noopener"
+>twikoo前端部署&lt;/a>&lt;/li>
+&lt;li>也可自行在前端代码中&lt;a class="link" href="https://twikoo.js.org/frontend.html#%E9%80%9A%E8%BF%87-cdn-%E5%BC%95%E5%85%A5" target="_blank" rel="noopener"
+>通过 CDN 引入&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>注意事项&lt;/strong>
+&lt;ul>
+&lt;li>如果是用&lt;code>MongoDB Atlas&lt;/code>这个当数据库的话，连接字符串记得改里面的&lt;code>&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;&lt;/code>为创建的&lt;code>用户名:密码&lt;/code>&lt;br>
+&lt;em>当时我就直接复制去部署了，发现没改后去后台服务器改了没效果，最后删了重新部署才行&lt;/em>&lt;br>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-在stack中">1.2 在Stack中
+&lt;/h3>&lt;p>&lt;code>Stack&lt;/code>就内置有&lt;code>twikoo&lt;/code>，在&lt;code>hugo.yaml&lt;/code>添加上云函数部署得到的 &lt;code>envId&lt;/code>&lt;br>&lt;/p></description></item></channel></rss>
