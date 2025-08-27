@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ᴏɴᴇ ғᴏᴜʀ</title><link>/post/</link><description>Recent content in Posts on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Tue, 26 Aug 2025 11:01:21 +0100</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><item><title>解决引入Pjax带来的各种问题</title><link>/p/pjax/</link><pubDate>Wed, 20 Aug 2025 10:40:00 +0100</pubDate><guid>/p/pjax/</guid><description>&lt;img src="/p/pjax/pjax-cover.png" alt="Featured image of post 解决引入Pjax带来的各种问题" />&lt;blockquote class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ᴏɴᴇ ғᴏᴜʀ</title><link>https://setcoke.com/post/</link><description>Recent content in Posts on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Tue, 26 Aug 2025 11:01:21 +0100</lastBuildDate><atom:link href="https://setcoke.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>解决引入Pjax带来的各种问题</title><link>https://setcoke.com/p/pjax/</link><pubDate>Wed, 20 Aug 2025 10:40:00 +0100</pubDate><guid>https://setcoke.com/p/pjax/</guid><description>&lt;img src="https://setcoke.com/p/pjax/pjax-cover.png" alt="Featured image of post 解决引入Pjax带来的各种问题" />&lt;blockquote class="alert alert-note">
 &lt;p>&lt;strong>前言:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>本文主要参考自&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack" target="_blank" rel="noopener"
@@ -8,10 +8,10 @@
 &lt;li>若是参考本文还解决不了，请自行阅读源码修复&lt;/li>
 &lt;/ul>&lt;/blockquote>
 &lt;h2 id="1-引入pjax">1. 引入Pjax
-&lt;/h2>&lt;p>(1) PJAX主要分为两个版本，带 &lt;strong>JQuery&lt;/strong> 和&lt;strong>不带JQuery&lt;/strong> 的，本站用的是&lt;strong>不带JQuery&lt;/strong> 的&lt;/p></description></item><item><title>Hugo-Stack主题美化</title><link>/p/hugo-stack-optimization/</link><pubDate>Sat, 16 Aug 2025 10:07:13 +0100</pubDate><guid>/p/hugo-stack-optimization/</guid><description>&lt;img src="/p/hugo-stack-optimization/Hugo-Stack.png" alt="Featured image of post Hugo-Stack主题美化 " />&lt;h2 id="优化浅色模式背景">优化浅色模式背景
+&lt;/h2>&lt;p>(1) PJAX主要分为两个版本，带 &lt;strong>JQuery&lt;/strong> 和&lt;strong>不带JQuery&lt;/strong> 的，本站用的是&lt;strong>不带JQuery&lt;/strong> 的&lt;/p></description></item><item><title>Hugo-Stack主题美化</title><link>https://setcoke.com/p/hugo-stack-optimization/</link><pubDate>Sat, 16 Aug 2025 10:07:13 +0100</pubDate><guid>https://setcoke.com/p/hugo-stack-optimization/</guid><description>&lt;img src="https://setcoke.com/p/hugo-stack-optimization/Hugo-Stack.png" alt="Featured image of post Hugo-Stack主题美化 " />&lt;h2 id="优化浅色模式背景">优化浅色模式背景
 &lt;/h2>&lt;p>其实，配置完了这个stack主题后，感觉浅色背景就是比较瞎眼 &lt;del>已经眼瞎了&lt;/del>&lt;br>
 首先我想直接插入图片进行更改，然后发现大部分背景这样并不显得好看，文字可读性也会降低&lt;br>
-然后就直接改背景颜色就ok了,首先要追随源码的样式&lt;br>&lt;/p></description></item><item><title>Pjax+Twikoo评论区引入并修复</title><link>/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>/p/pjax-twikoo/</guid><description>&lt;img src="/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区引入并修复" />&lt;blockquote class="alert alert-note">
+然后就直接改背景颜色就ok了,首先要追随源码的样式&lt;br>&lt;/p></description></item><item><title>Pjax+Twikoo评论区引入并修复</title><link>https://setcoke.com/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>https://setcoke.com/p/pjax-twikoo/</guid><description>&lt;img src="https://setcoke.com/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区引入并修复" />&lt;blockquote class="alert alert-note">
 &lt;ul>
 &lt;li>为什么使用&lt;strong>twikoo&lt;/strong>
 &lt;ul>
@@ -48,7 +48,7 @@
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="12-在stack中">1.2 在Stack中
-&lt;/h3>&lt;p>&lt;code>Stack&lt;/code>就内置有&lt;code>twikoo&lt;/code>，在&lt;code>hugo.yaml&lt;/code>添加上云函数部署得到的 &lt;code>envId&lt;/code>&lt;br>&lt;/p></description></item><item><title>Music Web tool | 音乐 网站 工具</title><link>/p/music/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate><guid>/p/music/</guid><description>&lt;img src="/p/music/music.png" alt="Featured image of post Music Web tool | 音乐 网站 工具" />&lt;blockquote class="alert alert-note">
+&lt;/h3>&lt;p>&lt;code>Stack&lt;/code>就内置有&lt;code>twikoo&lt;/code>，在&lt;code>hugo.yaml&lt;/code>添加上云函数部署得到的 &lt;code>envId&lt;/code>&lt;br>&lt;/p></description></item><item><title>Music Web tool | 音乐 网站 工具</title><link>https://setcoke.com/p/music/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate><guid>https://setcoke.com/p/music/</guid><description>&lt;img src="https://setcoke.com/p/music/music.png" alt="Featured image of post Music Web tool | 音乐 网站 工具" />&lt;blockquote class="alert alert-note">
 &lt;p>&lt;strong>引言&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>本贴最初的是&lt;code>Musictag&lt;/code>工具，目前升级为关于音乐的各种网站或者工具，持续更新&lt;/li>
