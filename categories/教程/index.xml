@@ -1,51 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on ᴏɴᴇ ғᴏᴜʀ</title><link>https://hugo.setcoke.com/categories/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Wed, 27 Aug 2025 18:51:01 +0100</lastBuildDate><atom:link href="https://hugo.setcoke.com/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>解决引入Pjax带来的各种问题</title><link>https://hugo.setcoke.com/p/pjax/</link><pubDate>Wed, 20 Aug 2025 10:40:00 +0100</pubDate><guid>https://hugo.setcoke.com/p/pjax/</guid><description>&lt;img src="https://hugo.setcoke.com/p/pjax/pjax-cover.png" alt="Featured image of post 解决引入Pjax带来的各种问题" />&lt;blockquote class="alert alert-note">
-&lt;p>&lt;strong>前言:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>本文主要参考自&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack" target="_blank" rel="noopener"
->莱特雷-letere&lt;/a>博主的帖子&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack/p/hugo/pjax/" target="_blank" rel="noopener"
->【Hugo】PJAX实现无刷新加载页面&lt;/a>&lt;/li>
-&lt;li>解决上述帖子 &lt;del>没解决&lt;/del> 或者说是 &lt;strong>小问题&lt;/strong>&lt;/li>
-&lt;li>若是参考本文还解决不了，请自行阅读源码修复&lt;/li>
-&lt;/ul>&lt;/blockquote>
-&lt;h2 id="1-引入pjax">1. 引入Pjax
-&lt;/h2>&lt;p>(1) PJAX主要分为两个版本，带 &lt;strong>JQuery&lt;/strong> 和&lt;strong>不带JQuery&lt;/strong> 的，本站用的是&lt;strong>不带JQuery&lt;/strong> 的&lt;/p></description></item><item><title>Hugo-Stack主题美化</title><link>https://hugo.setcoke.com/p/hugo-stack-optimization/</link><pubDate>Sat, 16 Aug 2025 10:07:13 +0100</pubDate><guid>https://hugo.setcoke.com/p/hugo-stack-optimization/</guid><description>&lt;img src="https://hugo.setcoke.com/p/hugo-stack-optimization/Hugo-Stack.png" alt="Featured image of post Hugo-Stack主题美化 " />&lt;h2 id="优化浅色模式背景">优化浅色模式背景
-&lt;/h2>&lt;p>其实，配置完了这个stack主题后，感觉浅色背景就是比较瞎眼 &lt;del>已经眼瞎了&lt;/del>&lt;br>
-首先我想直接插入图片进行更改，然后发现大部分背景这样并不显得好看，文字可读性也会降低&lt;br>
-然后就直接改背景颜色就ok了,首先要追随源码的样式&lt;br>&lt;/p></description></item><item><title>Pjax+Twikoo评论区引入并修复</title><link>https://hugo.setcoke.com/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>https://hugo.setcoke.com/p/pjax-twikoo/</guid><description>&lt;img src="https://hugo.setcoke.com/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区引入并修复" />&lt;blockquote class="alert alert-note">
-&lt;ul>
-&lt;li>为什么使用&lt;strong>twikoo&lt;/strong>
-&lt;ul>
-&lt;li>免费、部署简单&lt;/li>
-&lt;li>无域名限制&lt;/li>
-&lt;li>&lt;a class="link" href="https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2" target="_blank" rel="noopener"
->twikoo&lt;/a>&lt;em>查看更多&lt;/em>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>&lt;/blockquote>
-&lt;h2 id="1-引入twikoo">1. 引入Twikoo
-&lt;/h2>&lt;h3 id="11-部署">1.1 部署
-&lt;/h3>&lt;p>&lt;code>Twikoo&lt;/code> 分为&lt;strong>云函数&lt;/strong>和&lt;strong>前端&lt;/strong>两部分，需要同时部署&lt;br>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>云函数部署&lt;/strong>
-&lt;ul>
-&lt;li>&lt;code>twikoo&lt;/code>有多种云函数部署方式，具体的可以到官网查看教程选择&lt;a class="link" href="https://twikoo.js.org/backend.html" target="_blank" rel="noopener"
->twikoo云函数部署&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>前端部署&lt;/strong>
-&lt;ul>
-&lt;li>&lt;code>twikoo&lt;/code>有多种网站框架的不同主题的配置方式&lt;a class="link" href="https://twikoo.js.org/frontend.html" target="_blank" rel="noopener"
->twikoo前端部署&lt;/a>&lt;/li>
-&lt;li>也可自行在前端代码中&lt;a class="link" href="https://twikoo.js.org/frontend.html#%E9%80%9A%E8%BF%87-cdn-%E5%BC%95%E5%85%A5" target="_blank" rel="noopener"
->通过 CDN 引入&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>注意事项&lt;/strong>
-&lt;ul>
-&lt;li>如果是用&lt;code>MongoDB Atlas&lt;/code>这个当数据库的话，连接字符串记得改里面的&lt;code>&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;&lt;/code>为创建的&lt;code>用户名:密码&lt;/code>&lt;br>
-&lt;em>当时我就直接复制去部署了，发现没改后去后台服务器改了没效果，最后删了重新部署才行&lt;/em>&lt;br>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="12-在stack中">1.2 在Stack中
-&lt;/h3>&lt;p>&lt;code>Stack&lt;/code>就内置有&lt;code>twikoo&lt;/code>，在&lt;code>hugo.yaml&lt;/code>添加上云函数部署得到的 &lt;code>envId&lt;/code>&lt;br>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on ᴏɴᴇ ғᴏᴜʀ</title><link>https://hugo.setcoke.com/categories/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Mon, 01 Sep 2025 12:57:14 +0800</lastBuildDate><atom:link href="https://hugo.setcoke.com/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>解决引入Pjax带来的各种问题</title><link>https://hugo.setcoke.com/p/pjax/</link><pubDate>Wed, 20 Aug 2025 10:40:00 +0100</pubDate><guid>https://hugo.setcoke.com/p/pjax/</guid><description>&lt;img src="https://hugo.setcoke.com/p/pjax/pjax-cover.png" alt="Featured image of post 解决引入Pjax带来的各种问题" /&gt;&lt;blockquote class="alert alert-note"&gt;
+&lt;p&gt;&lt;strong&gt;前言:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本文主要参考自&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack" target="_blank" rel="noopener"
+&gt;莱特雷-letere&lt;/a&gt;博主的帖子&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack/p/hugo/pjax/" target="_blank" rel="noopener"
+&gt;【Hugo】PJAX实现无刷新加载页面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;解决上述帖子中未完全解决的一些问题&lt;/li&gt;
+&lt;li&gt;若是参考本文还解决不了，请自行阅读源码修复&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;本文将详细介绍如何在 Hugo-Stack 主题中引入 PJAX，并解决由此带来的各种问题，包括 URL 随机参数、评论系统、图片放大等功能异常。我们将逐一分析问题原因并提供解决方案。&lt;/p&gt;</description></item><item><title>Hugo-Stack主题美化</title><link>https://hugo.setcoke.com/p/hugo-stack-optimization/</link><pubDate>Sat, 16 Aug 2025 10:07:13 +0100</pubDate><guid>https://hugo.setcoke.com/p/hugo-stack-optimization/</guid><description>&lt;img src="https://hugo.setcoke.com/p/hugo-stack-optimization/Hugo-Stack.png" alt="Featured image of post Hugo-Stack主题美化" /&gt;&lt;p&gt;本文将介绍如何对 Hugo-Stack 主题进行美化，主要包括两个方面的优化：修改浅色模式背景和调整网站布局。通过这些优化，可以让你的博客更加个性化，提升用户体验。&lt;/p&gt;</description></item><item><title>Pjax+Twikoo评论区引入并修复</title><link>https://hugo.setcoke.com/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>https://hugo.setcoke.com/p/pjax-twikoo/</guid><description>&lt;img src="https://hugo.setcoke.com/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区引入并修复" /&gt;&lt;blockquote class="alert alert-note"&gt;
+&lt;ul&gt;
+&lt;li&gt;为什么使用&lt;strong&gt;twikoo&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;免费、部署简单&lt;/li&gt;
+&lt;li&gt;无域名限制&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2" target="_blank" rel="noopener"
+&gt;twikoo&lt;/a&gt;&lt;em&gt;查看更多&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;本文将介绍如何在 Hugo-Stack 主题中引入 Twikoo 评论系统，并解决因使用 Pjax 导致的 Twikoo 评论区显示问题。我们将从 Twikoo 的部署开始，然后分析 Pjax 与 Twikoo 的兼容性问题，最后提供完整的解决方案。&lt;/p&gt;</description></item></channel></rss>
