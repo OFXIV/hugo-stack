@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pjax on ᴏɴᴇ ғᴏᴜʀ</title><link>https://hugo.setcoke.com/categories/pjax/</link><description>Recent content in Pjax on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Mon, 01 Sep 2025 12:57:14 +0800</lastBuildDate><atom:link href="https://hugo.setcoke.com/categories/pjax/index.xml" rel="self" type="application/rss+xml"/><item><title>解决引入Pjax带来的各种问题</title><link>https://hugo.setcoke.com/p/pjax/</link><pubDate>Wed, 20 Aug 2025 10:40:00 +0100</pubDate><guid>https://hugo.setcoke.com/p/pjax/</guid><description>&lt;img src="https://hugo.setcoke.com/p/pjax/pjax-cover.png" alt="Featured image of post 解决引入Pjax带来的各种问题" /&gt;&lt;blockquote class="alert alert-note"&gt;
-&lt;p&gt;&lt;strong&gt;前言:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;本文主要参考自&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack" target="_blank" rel="noopener"
-&gt;莱特雷-letere&lt;/a&gt;博主的帖子&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack/p/hugo/pjax/" target="_blank" rel="noopener"
-&gt;【Hugo】PJAX实现无刷新加载页面&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;解决上述帖子中未完全解决的一些问题&lt;/li&gt;
-&lt;li&gt;若是参考本文还解决不了，请自行阅读源码修复&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;本文将详细介绍如何在 Hugo-Stack 主题中引入 PJAX，并解决由此带来的各种问题，包括 URL 随机参数、评论系统、图片放大等功能异常。我们将逐一分析问题原因并提供解决方案。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pjax on ᴏɴᴇ ғᴏᴜʀ</title><link>https://hugo.ofxiv.com/categories/pjax/</link><description>Recent content in Pjax on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Thu, 04 Sep 2025 09:01:05 +0100</lastBuildDate><atom:link href="https://hugo.ofxiv.com/categories/pjax/index.xml" rel="self" type="application/rss+xml"/><item><title>解决引入Pjax带来的各种问题</title><link>https://hugo.ofxiv.com/p/pjax/</link><pubDate>Wed, 20 Aug 2025 10:40:00 +0100</pubDate><guid>https://hugo.ofxiv.com/p/pjax/</guid><description>&lt;img src="https://hugo.ofxiv.com/p/pjax/pjax-cover.png" alt="Featured image of post 解决引入Pjax带来的各种问题" />&lt;blockquote class="alert alert-note">
+&lt;p>&lt;strong>前言:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>本文主要参考自&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack" target="_blank" rel="noopener"
+>莱特雷-letere&lt;/a>博主的帖子&lt;a class="link" href="https://letere-gzj.github.io/hugo-stack/p/hugo/pjax/" target="_blank" rel="noopener"
+>【Hugo】PJAX实现无刷新加载页面&lt;/a>&lt;/li>
+&lt;li>解决上述帖子中未完全解决的一些问题&lt;/li>
+&lt;li>若是参考本文还解决不了，请自行阅读源码修复&lt;/li>
+&lt;/ul>&lt;/blockquote>
+&lt;p>本文将详细介绍如何在 Hugo-Stack 主题中引入 PJAX，并解决由此带来的各种问题，包括 URL 随机参数、评论系统、图片放大等功能异常。我们将逐一分析问题原因并提供解决方案。&lt;/p></description></item></channel></rss>

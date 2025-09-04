@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on ᴏɴᴇ ғᴏᴜʀ</title><link>https://hugo.setcoke.com/tags/hugo/</link><description>Recent content in Hugo on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Mon, 01 Sep 2025 12:52:27 +0800</lastBuildDate><atom:link href="https://hugo.setcoke.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-Stack主题美化</title><link>https://hugo.setcoke.com/p/hugo-stack-optimization/</link><pubDate>Sat, 16 Aug 2025 10:07:13 +0100</pubDate><guid>https://hugo.setcoke.com/p/hugo-stack-optimization/</guid><description>&lt;img src="https://hugo.setcoke.com/p/hugo-stack-optimization/Hugo-Stack.png" alt="Featured image of post Hugo-Stack主题美化" /&gt;&lt;p&gt;本文将介绍如何对 Hugo-Stack 主题进行美化，主要包括两个方面的优化：修改浅色模式背景和调整网站布局。通过这些优化，可以让你的博客更加个性化，提升用户体验。&lt;/p&gt;</description></item><item><title>Pjax+Twikoo评论区引入并修复</title><link>https://hugo.setcoke.com/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>https://hugo.setcoke.com/p/pjax-twikoo/</guid><description>&lt;img src="https://hugo.setcoke.com/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区引入并修复" /&gt;&lt;blockquote class="alert alert-note"&gt;
-&lt;ul&gt;
-&lt;li&gt;为什么使用&lt;strong&gt;twikoo&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;免费、部署简单&lt;/li&gt;
-&lt;li&gt;无域名限制&lt;/li&gt;
-&lt;li&gt;&lt;a class="link" href="https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2" target="_blank" rel="noopener"
-&gt;twikoo&lt;/a&gt;&lt;em&gt;查看更多&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;本文将介绍如何在 Hugo-Stack 主题中引入 Twikoo 评论系统，并解决因使用 Pjax 导致的 Twikoo 评论区显示问题。我们将从 Twikoo 的部署开始，然后分析 Pjax 与 Twikoo 的兼容性问题，最后提供完整的解决方案。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on ᴏɴᴇ ғᴏᴜʀ</title><link>https://hugo.ofxiv.com/tags/hugo/</link><description>Recent content in Hugo on ᴏɴᴇ ғᴏᴜʀ</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>ᴏɴᴇ ғᴏᴜʀ</copyright><lastBuildDate>Thu, 04 Sep 2025 09:01:05 +0100</lastBuildDate><atom:link href="https://hugo.ofxiv.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo-Stack主题美化</title><link>https://hugo.ofxiv.com/p/hugo-stack-optimization/</link><pubDate>Sat, 16 Aug 2025 10:07:13 +0100</pubDate><guid>https://hugo.ofxiv.com/p/hugo-stack-optimization/</guid><description>&lt;img src="https://hugo.ofxiv.com/p/hugo-stack-optimization/Hugo-Stack.png" alt="Featured image of post Hugo-Stack主题美化" />&lt;p>本文将介绍如何对 Hugo-Stack 主题进行美化，主要包括两个方面的优化：修改浅色模式背景和调整网站布局。通过这些优化，可以让你的博客更加个性化，提升用户体验。&lt;/p></description></item><item><title>Pjax+Twikoo评论区引入并修复</title><link>https://hugo.ofxiv.com/p/pjax-twikoo/</link><pubDate>Sat, 16 Aug 2025 03:51:56 +0100</pubDate><guid>https://hugo.ofxiv.com/p/pjax-twikoo/</guid><description>&lt;img src="https://hugo.ofxiv.com/p/pjax-twikoo/pjax-twikoo.png" alt="Featured image of post Pjax+Twikoo评论区引入并修复" />&lt;blockquote class="alert alert-note">
+&lt;ul>
+&lt;li>为什么使用&lt;strong>twikoo&lt;/strong>
+&lt;ul>
+&lt;li>免费、部署简单&lt;/li>
+&lt;li>无域名限制&lt;/li>
+&lt;li>&lt;a class="link" href="https://twikoo.js.org/intro.html#%E7%89%B9%E8%89%B2" target="_blank" rel="noopener"
+>twikoo&lt;/a>&lt;em>查看更多&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>&lt;/blockquote>
+&lt;p>本文将介绍如何在 Hugo-Stack 主题中引入 Twikoo 评论系统，并解决因使用 Pjax 导致的 Twikoo 评论区显示问题。我们将从 Twikoo 的部署开始，然后分析 Pjax 与 Twikoo 的兼容性问题，最后提供完整的解决方案。&lt;/p></description></item></channel></rss>
